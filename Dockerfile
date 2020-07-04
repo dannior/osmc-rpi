@@ -1,4 +1,4 @@
-ARG OSMC_VERSION=20170803
+ARG OSMC_VERSION=20200616
 FROM codafog/osmc-rpi:base_${OSMC_VERSION}
 
 # Enable systemd

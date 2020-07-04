@@ -2,7 +2,7 @@
 # create_base_image.sh
 # OSMC version to download
 #OSMC_VERSION=20170803
-OSMC_VERSION=20160910
+OSMC_VERSION=20200616
 OSMC_URL="http://download.osmc.tv/installers/diskimages/OSMC_TGT_rbp2_${OSMC_VERSION}.img.gz"
 DOWNLOAD_DIR=~/osmc
 EXTRACT_DIR=./
