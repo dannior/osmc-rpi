@@ -4,9 +4,9 @@
 #OSMC_VERSION=20170803
 OSMC_VERSION=20160910
 OSMC_URL="http://download.osmc.tv/installers/diskimages/OSMC_TGT_rbp2_${OSMC_VERSION}.img.gz"
-DOWNLOAD_DIR=/home/pi/osmc
+DOWNLOAD_DIR=~/osmc
 EXTRACT_DIR=./
-MOUNT_DIR=/home/pi/osmc/mnt
+MOUNT_DIR=~/osmc/mnt
 LOOP_DEV=/dev/loop1 # Loop device used for mounting .img file
 # create directories
 mkdir -p "${DOWNLOAD_DIR}"
